@@ -4,8 +4,8 @@ pub struct Fish {
     pub weight: u32,
 }
 
-pub struct WaterType {
+pub enum WaterType {
     Fresh,
-    Brackish
+    Brackish,
     Salty,
 }
